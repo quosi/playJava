@@ -1,2 +1,2 @@
 # playJava
-A mini game writte in Java, to practice OOP.
+A mini game written in Java, to practice OOP.
