@@ -7,9 +7,9 @@ A mini game written in Java, to practice OOP.
 
 ## Concept
 
-![Fantastic Four Class Diagram Brainstorm](https://github.com/quosi/playJava/edit/main/image1.png "Fantastic Four Class Diagram Brainstorming")
+![Fantastic_Four_Class_Diagram_Brainstorm](/image1.png "Fantastic Four Class Diagram Brainstorming")
 
-![Fantastic Four Rules Brainstorm](https://github.com/quosi/playJava/edit/main/image2.png "Fantastic Four Rules Brainstorming")
+![Fantastic_Four_Rules_Brainstorm](/image2.png "Fantastic Four Rules Brainstorming")
 
 ## Rules of the Game
 
