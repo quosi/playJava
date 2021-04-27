@@ -11,7 +11,7 @@ A mini game written in Java, to practice OOP.
 
 ![Fantastic_Four_Rules_Brainstorm](/image2.png "Fantastic Four Rules Brainstorming")
 
-![Updated_Concept](/PuFProjekt.png "Updated Concept")
+![Updated_Concept](/PuFProjekt.jpg "Updated Concept")
 
 ## Rules of the Game
 
