@@ -21,7 +21,7 @@ Two players can each in return select a column where they want to drop a chip in
 
 ## Open Questions
 
-How or when do players get a Super Power Chip? (game design related question)
-Can Players select there colour before the game starts? (UI related question)
+How or when do players get a Super Power Chip? (game design related question) <br>
+Can a Player select a random colour other then red or blue before the game starts? (UI related question)
 
 
