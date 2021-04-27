@@ -15,6 +15,10 @@ A mini game written in Java, to practice OOP.
 
 Two players can each in return select a column where they want to drop a chip in there represented colour. The chip will be placed in the last empty row of that column. If a field in a column is taken, the following chip will be placed in the row above this field in the same column. If one player uses a Super Power Chip, she can overwrite a occupied field.
 
+## GUI Mockup
+
+![GUI_Design_v1](/image3.png "Fantastic Four GUI Design from Scene Builder")
+
 ## Open Questions
 
 How or when do players get a Super Power Chip? (game design related question)
