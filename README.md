@@ -11,6 +11,8 @@ A mini game written in Java, to practice OOP.
 
 ![Fantastic_Four_Rules_Brainstorm](/image2.png "Fantastic Four Rules Brainstorming")
 
+![Updated_Concept](/PuFProjekt.jpg "Updated Concept")
+
 ## Rules of the Game
 
 Two players can each in return select a column where they want to drop a chip in there represented colour. The chip will be placed in the last empty row of that column. If a field in a column is taken, the following chip will be placed in the row above this field in the same column. If one player uses a Super Power Chip, she can overwrite a occupied field.
