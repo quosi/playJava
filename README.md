@@ -23,6 +23,8 @@ Using Scene Builder a first GUI design is proposed. Based on this [FXML file](./
 
 ![GUI_Design_v1](/image3.png "Fantastic Four GUI Design from Scene Builder")
 
+![Updated_fxml](/FantasticFour.JPG "Updated fxml")
+
 ## Open Questions
 
 How or when do players get a Super Power Chip? (game design related question) <br>
