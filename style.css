@@ -1,0 +1,7 @@
+.button{
+-fx-cursor: pointer;
+}
+
+.button:hover{
+-fx-border: 2px solid white;
+}
