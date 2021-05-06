@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -59,38 +58,32 @@
                   <Font size="44.0" />
                </font>
             </Text>
-            <Button layoutX="258.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Account" textFill="WHITE">
+            <Text fill="#7be8d9" layoutX="63.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account" textAlignment="CENTER" wrappingWidth="654.4700469970703">
                <font>
-                  <Font name="Arial" size="18.0" />
+                  <Font name="Arial" size="36.0" />
                </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Login" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Play" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Help" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
+            </Text>
+            <AnchorPane disable="true" layoutX="54.0" layoutY="131.0" prefHeight="375.0" prefWidth="693.0" style="-fx-background-color: #12c3cc;">
+               <children>
+                  <Text fill="#074339" layoutX="29.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check your Details" wrappingWidth="562.4700469970703">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#074339" layoutX="29.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Name" wrappingWidth="562.4700469970703">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#074339" layoutX="29.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Email" wrappingWidth="562.4700469970703">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="161.0" layoutY="57.0" prefHeight="30.0" prefWidth="504.0" />
+                  <TextField layoutX="161.0" layoutY="99.0" prefHeight="30.0" prefWidth="504.0" />
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </children>

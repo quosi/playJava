@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -59,38 +57,25 @@
                   <Font size="44.0" />
                </font>
             </Text>
-            <Button layoutX="258.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Account" textFill="WHITE">
+            <Text fill="#7be8d9" layoutX="63.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intructions" textAlignment="CENTER" wrappingWidth="654.4700469970703">
                <font>
-                  <Font name="Arial" size="18.0" />
+                  <Font name="Arial" size="36.0" />
                </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Login" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Play" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="258.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#FantasticFour_main_v3" prefHeight="44.0" prefWidth="263.0" style="-fx-background-color: #0d7075;" text="Help" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="18.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
+            </Text>
+            <AnchorPane layoutX="54.0" layoutY="131.0" prefHeight="375.0" prefWidth="693.0" style="-fx-background-color: #12c3cc;">
+               <children>
+                  <Text fill="#074339" layoutX="29.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Challenge a friend " wrappingWidth="562.4700469970703">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#074339" layoutX="29.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Challenge a friend to disc-dropping fun with the classic game of Connect 4! Drop your red or yellow discs in the grid and be the first to get 4 in a row to win. If your opponent is getting too close to 4 in a row, block them with your own disc! Whoever wins can pull out the slider bar to release all the discs and start the fun all over again!Includes grid, 2 legs, slider bar, 21 red discs, 21 yellow discs and instructionsAges 6 and up.For 2 players.Adult assembly required.Connect 4 and all related characters are trademarks of Hasbro." wrappingWidth="562.4700469970703">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </children>
