@@ -7,7 +7,7 @@ A mini game written in Java, to practice OOP.
 
 ## Concept
 
-![Fantastic_Four_Class_Diagram_Brainstorm](images/PuFProjekt.png "Fantastic Four Class Diagram Brainstorming")
+![Fantastic_Four_Class_Diagram_Brainstorm](images/PuFProjekt.jpg "Fantastic Four Class Diagram Brainstorming")
 
 ![Fantastic_Four_Rules_Brainstorm](images/image2.png "Fantastic Four Rules Brainstorming")
 
