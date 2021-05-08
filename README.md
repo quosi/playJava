@@ -7,11 +7,15 @@ A mini game written in Java, to practice OOP.
 
 ## Concept
 
-![Fantastic_Four_Class_Diagram_Brainstorm](images/image1.png "Fantastic Four Class Diagram Brainstorming")
+![Fantastic_Four_Class_Diagram_Brainstorm](images/PuFProjekt.png "Fantastic Four Class Diagram Brainstorming")
 
 ![Fantastic_Four_Rules_Brainstorm](images/image2.png "Fantastic Four Rules Brainstorming")
 
-![Updated_Concept](images/PuFProjekt.jpg "Updated Concept")
+## UML class diagram
+
+The software architecture of this game follows the MVC (model, view, controller) concept, where the programm logic is separated from the GUI (graphical user interface). The controller unit is the manages the information exchange between the modul (containing the game objects), and the view (representing the GUI, incl. GUI objects).
+
+![UML_class_diagram](images/uml1.jpg "UML class diagram")
 
 ## Rules of the Game
 
