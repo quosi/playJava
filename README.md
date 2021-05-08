@@ -15,7 +15,7 @@ A mini game written in Java, to practice OOP.
 
 The software architecture of this game follows the MVC (model, view, controller) concept, where the programm logic is separated from the GUI (graphical user interface). The controller unit is the manages the information exchange between the modul (containing the game objects), and the view (representing the GUI, incl. GUI objects).
 
-![UML_class_diagram](images/uml1.jpg "UML class diagram")
+![UML_class_diagram](images/uml1.png "UML class diagram")
 
 ## Rules of the Game
 
