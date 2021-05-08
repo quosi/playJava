@@ -7,11 +7,11 @@ A mini game written in Java, to practice OOP.
 
 ## Concept
 
-![Fantastic_Four_Class_Diagram_Brainstorm](/image1.png "Fantastic Four Class Diagram Brainstorming")
+![Fantastic_Four_Class_Diagram_Brainstorm](images/image1.png "Fantastic Four Class Diagram Brainstorming")
 
-![Fantastic_Four_Rules_Brainstorm](/image2.png "Fantastic Four Rules Brainstorming")
+![Fantastic_Four_Rules_Brainstorm](images/image2.png "Fantastic Four Rules Brainstorming")
 
-![Updated_Concept](/PuFProjekt.jpg "Updated Concept")
+![Updated_Concept](images/PuFProjekt.jpg "Updated Concept")
 
 ## Rules of the Game
 
@@ -19,11 +19,11 @@ Two players can each in return select a column where they want to drop a chip in
 
 ## GUI Mockup
 
-Using Scene Builder a first GUI design is proposed. Based on this [FXML file](./FantasticFour_v1.fxml) the GUI mockup looks like this: <br>
+Using Scene Builder a first GUI design is proposed. Based on this [FXML file](./data/FantasticFour_v1.fxml) the GUI mockup looks like this: <br>
 
-![GUI_Design_v1](/image3.png "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/image3.png "Fantastic Four GUI Design from Scene Builder")
 
-![Updated_fxml](/FantasticFour.JPG "Updated fxml")
+![Updated_fxml](images/FantasticFour.JPG "Updated fxml")
 
 ## Open Questions
 
