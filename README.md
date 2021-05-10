@@ -25,9 +25,17 @@ Two players can each in return select a column where they want to drop a chip in
 
 Using Scene Builder a first GUI design is proposed. Based on this [FXML file](./data/FantasticFour_v1.fxml) the GUI mockup looks like this: <br>
 
-![GUI_Design_v1](images/image3.png "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/1-welcome.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/2-Login.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/3-menu.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/4.user1choices.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/5.user2.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/6.main.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/7-account.JPG "Fantastic Four GUI Design from Scene Builder")
+![GUI_Design_v1](images/8-help.JPG "Fantastic Four GUI Design from Scene Builder")
 
-![Updated_fxml](images/FantasticFour.JPG "Updated fxml")
+
+
 
 ## Open Questions
 
