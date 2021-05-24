@@ -18,7 +18,6 @@ package sample;
     the first time.
  */
 
-
 public class GamePlayModel {
     private static GamePlayModel myOnlyObject = null;
     private PlayerColor PLayer1Color;
@@ -38,6 +37,8 @@ public class GamePlayModel {
 
         return myOnlyObject;
     }
+
+    //set color method
     public void SETPlayer1Color(PlayerColor p1color) {
         switch (p1color) {
             case YELLOW:
