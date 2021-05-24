@@ -28,6 +28,7 @@ public class UserOneController {
     private AnchorPane rootPane;
     private GamePlayModel itsModel;
 
+
     public UserOneController () {
         itsModel = GamePlayModel.getInstance();
     }
@@ -42,10 +43,12 @@ public class UserOneController {
     }
 
     public void chooseRed(javafx.event.ActionEvent actionEvent) {
+
         itsModel.SETPlayer1Color(PlayerColor.RED);
     }
 
     public void chooseYellow(javafx.event.ActionEvent actionEvent) {
+
         itsModel.SETPlayer1Color(PlayerColor.YELLOW);
     }
 }

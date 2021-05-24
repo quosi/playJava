@@ -129,7 +129,7 @@
                         <Font name="System Bold" size="20.0" />
                      </font>
                   </Text>
-                  <Circle fx:id="color1" fill="#e8ff1f" layoutX="140.0" layoutY="25.0" radius="12.0" stroke="WHITE" strokeMiterLimit="5.0" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Circle fx:id="c1" fill="WHITE" layoutX="140.0" layoutY="25.0" radius="12.0" stroke="WHITE" strokeMiterLimit="5.0" strokeType="INSIDE" strokeWidth="3.0" />
                   <TextField layoutX="97.0" layoutY="64.0" prefHeight="26.0" prefWidth="139.0" />
                </children>
             </Pane>
@@ -185,7 +185,7 @@
                      </font>
                   </Text>
                   <TextField layoutX="92.0" layoutY="61.0" prefHeight="26.0" prefWidth="139.0" />
-                  <Circle fill="#ff2121" layoutX="142.0" layoutY="28.0" radius="12.0" stroke="WHITE" strokeMiterLimit="5.0" strokeType="INSIDE" strokeWidth="3.0" />
+                  <Circle fx:id="c2" fill="WHITE" layoutX="142.0" layoutY="28.0" radius="12.0" stroke="WHITE" strokeMiterLimit="5.0" strokeType="INSIDE" strokeWidth="3.0" />
                </children>
             </Pane>
          </children>

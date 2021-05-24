@@ -25,6 +25,7 @@ public class Main extends Application {
         myGameData = GameData.getInstance();
 
         myGamePlayModel.SETItsGameDataObject(myGameData);
+        myGameData.loadGameData();
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("welcome1.fxml"));
