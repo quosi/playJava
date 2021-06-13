@@ -1,5 +1,5 @@
 package sample;
-
+import sample.PlayerColor;
 /*
     GamePlayModel is implemented as Singleton design pattern,
     Singleton means that the object is created only once and used by many
@@ -18,18 +18,38 @@ package sample;
     the first time.
  */
 
+import java.sql.Array;
+import java.sql.SQLOutput;
+
 public class GamePlayModel {
     private static GamePlayModel myOnlyObject = null;
     private PlayerColor PLayer1Color;
     private PlayerColor Player2Color;
+    private int Player1CurrentScore;
+    private int Player2CurrentScore;
+
+    private int ColumnsCount = 7;
+    private int RowsCount = 6;
+
+    private int round;
+
+    private int rows;
+    private int columns;
+
+    private boolean IsCurrentTurnPlayer1;
+
+    PlayerColor BoardGrid[][];
 
     private GameData itsGameData;
 
+    private IGamePlayObserver gamePlayerObserver = null;
+
     private GamePlayModel() {
-        PLayer1Color = PlayerColor.UNINIT;
-        Player2Color = PlayerColor.UNINIT;
+        PLayer1Color = null;
+        Player2Color = null;
     }
 
+// object in itself to be called
     public static GamePlayModel getInstance()
     {
         if (myOnlyObject == null)
@@ -51,13 +71,9 @@ public class GamePlayModel {
                 Player2Color = PlayerColor.YELLOW;
                 break;
 
-            case UNKNOWN:
-                PLayer1Color = PlayerColor.UNKNOWN;
-                Player2Color = PlayerColor.UNKNOWN;
-                break;
-
-            case UNINIT:
             default:
+                PLayer1Color = null;
+                Player2Color = null;
                 break;
         }
 
@@ -81,4 +97,88 @@ public class GamePlayModel {
     void SETItsGameDataObject(GameData gameDataRef) {
         itsGameData = gameDataRef;
     }
+
+
+
+
+    // Initialize observer
+    public void SETGamePlayerObserver(IGamePlayObserver observer) {
+        gamePlayerObserver = observer;
+    }
+
+
+    public void StartNewGame(){
+        BoardGrid = new PlayerColor[RowsCount][ColumnsCount];
+
+        // initialize Turn
+        IsCurrentTurnPlayer1 = true;
+
+        if (null != gamePlayerObserver)
+            gamePlayerObserver.SETIsPlayer1CurrentTurn(IsCurrentTurnPlayer1);
+     }
+
+    public void ChangeStatus(Integer ColIndex) {
+        if (ColIndex == null) ColIndex = 0;
+        Integer RowIndex = 0;
+
+        if (ColIndex >= ColumnsCount) return;
+
+        RowIndex = GetHighstIndexOfFreeCell(ColIndex);
+
+        if (RowIndex != -1) {
+            if (IsCurrentTurnPlayer1) {
+                BoardGrid[RowIndex][ColIndex] = PLayer1Color;
+                if (null != gamePlayerObserver)
+                    gamePlayerObserver.SETCellColor(ColIndex, RowIndex, PLayer1Color);
+            } else {
+                BoardGrid[RowIndex][ColIndex] = Player2Color;
+                if (null != gamePlayerObserver)
+                    gamePlayerObserver.SETCellColor(ColIndex, RowIndex, Player2Color);
+            }
+//change turn and color of the turn circle
+            IsCurrentTurnPlayer1 = !IsCurrentTurnPlayer1;
+
+            if (null != gamePlayerObserver)
+                gamePlayerObserver.SETIsPlayer1CurrentTurn(IsCurrentTurnPlayer1);
+        }
+        boolean IsWin = checkWin (ColIndex, RowIndex);
+    }
+
+    private int GetHighstIndexOfFreeCell(int CollIndex ){
+        for(int i = RowsCount - 1; i >= 0 ; i--){
+            if(BoardGrid[i][CollIndex] == null){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private boolean checkWin (int ColIndex,int  RowIndex){
+        if(RowIndex <= 2 ) {
+            if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex + 1][ColIndex] || BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex - 1][ColIndex]) {
+                if(BoardGrid [RowIndex + 1][ColIndex]== BoardGrid [RowIndex + 2][ColIndex] || BoardGrid [RowIndex - 1][ColIndex]== BoardGrid [RowIndex - 2][ColIndex]){
+                    if(BoardGrid [RowIndex + 2][ColIndex]== BoardGrid [RowIndex + 3][ColIndex] || BoardGrid [RowIndex - 2][ColIndex]== BoardGrid [RowIndex - 3][ColIndex]){
+                return true;
+            }}}
+
+
+        } else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex][ColIndex + 1]){
+
+        }else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex][ColIndex - 1]) {
+
+        }else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex +1][ColIndex + 1]) {
+
+        }else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex -1 ][ColIndex - 1]) {
+
+        }else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex-1][ColIndex + 1]) {
+
+        }else if (BoardGrid [RowIndex][ColIndex] == BoardGrid [RowIndex +1][ColIndex - 1]) {
+
+        }else return false;
+
+
+        return false;
+    }
+
 }
+
