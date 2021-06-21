@@ -1,0 +1,5 @@
+<map id="sample.IGamePlayObserver.SETCellColor" name="sample.IGamePlayObserver.SETCellColor">
+<area shape="rect" id="node1" title=" " alt="" coords="495,5,681,47"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a7f55e487cff1cfea7f89d47ac632e53d" title="implements the game play rules by checking the events occur in the game when a new chip is inserted." alt="" coords="235,5,447,47"/>
+<area shape="rect" id="node3" href="$d5/d5a/classsample_1_1BoardController.html#a7309f4f6bf7df34a27afe7090ab223a1" title=" " alt="" coords="5,5,187,47"/>
+</map>

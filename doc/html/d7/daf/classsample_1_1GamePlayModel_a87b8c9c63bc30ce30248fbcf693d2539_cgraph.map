@@ -1,0 +1,5 @@
+<map id="sample.GamePlayModel.SaveGameData" name="sample.GamePlayModel.SaveGameData">
+<area shape="rect" id="node1" title="triggers game data save request to GameData model on application exit." alt="" coords="5,23,201,65"/>
+<area shape="rect" id="node2" href="$db/db0/classsample_1_1GameData.html#a45a7d84a0011c1210559399628f63c53" title="saves player 1 and player 2 data to the HDD." alt="" coords="255,5,478,32"/>
+<area shape="rect" id="node3" href="$db/db0/classsample_1_1GameData.html#a9bc625594e42eecf34da0df474c5431a" title="updates the game data with the current score of player 1 and player 2." alt="" coords="249,56,484,83"/>
+</map>

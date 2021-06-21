@@ -1,0 +1,6 @@
+<map id="sample.GameData.GameData" name="sample.GameData.GameData">
+<area shape="rect" id="node1" title="GameData private constructor." alt="" coords="477,42,673,69"/>
+<area shape="rect" id="node2" href="$db/db0/classsample_1_1GameData.html#ae66e9d61ba7c6ca3c4b6b631dc69a4e3" title="creates a singleton instance of GameData if not created and returns the instance to caller." alt="" coords="228,42,429,69"/>
+<area shape="rect" id="node3" href="$d4/dea/classsample_1_1AccountController.html#a9de0def5c945c21efe1b85ac9967d8e8" title=" " alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node4" href="$d6/db3/classsample_1_1Main.html#a64ba37c898ca967654307543954cd09d" title=" " alt="" coords="29,71,156,98"/>
+</map>

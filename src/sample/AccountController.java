@@ -4,7 +4,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.control.TextField;
 import java.io.IOException;
-import sample.GameData;
 public class AccountController {
 
     @FXML
@@ -13,9 +12,13 @@ public class AccountController {
     private TextField user1Name;
     private GameData itsData;
     @FXML
-    private TextField userHighestScore;
+    private TextField p1HighestScore;
     @FXML
-    private TextField userLastScore;
+    private TextField p1LastScore;
+    @FXML
+    private TextField p2HighestScore;
+    @FXML
+    private TextField p2LastScore;
 
     public AccountController(){
         itsData = GameData.getInstance();
@@ -24,8 +27,12 @@ public class AccountController {
     @FXML
     public void initialize()  {
         Score score = itsData.GETPlayer1Score();
-        userHighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
-        userLastScore.setText(Integer.toString(score.getPlayerLastScore()));
+        p1HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
+        p1LastScore.setText(Integer.toString(score.getPlayerLastScore()));
+
+        score = itsData.GETPlayer2Score();
+        p2HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
+        p2LastScore.setText(Integer.toString(score.getPlayerLastScore()));
     }
 
     public void showMenu(javafx.event.ActionEvent actionEvent) throws IOException {

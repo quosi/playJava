@@ -1,0 +1,5 @@
+<map id="sample.GamePlayModel.SETPlayer1Color" name="sample.GamePlayModel.SETPlayer1Color">
+<area shape="rect" id="node1" title="sets the chip color for player 1 and 2 based on selection of player 1." alt="" coords="296,27,533,69"/>
+<area shape="rect" id="node2" href="$d0/d17/classsample_1_1UserOneController.html#ac340c51f4624901da5434fa3cedbc9f8" title=" " alt="" coords="5,5,248,32"/>
+<area shape="rect" id="node3" href="$d0/d17/classsample_1_1UserOneController.html#a67606f4b965bbe469daec5dc7021a2b3" title=" " alt="" coords="17,57,237,98"/>
+</map>

@@ -12,7 +12,7 @@
    <children>
       <AnchorPane fx:id="rootPane" prefHeight="460.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#7be8d9" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome Muster Fantastic Four " textAlignment="CENTER" wrappingWidth="1000.0">
+            <Text fill="#7be8d9" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome  Fantastic Four " textAlignment="CENTER" wrappingWidth="1000.0">
                <font>
                   <Font name="Arial" size="36.0" />
                </font>

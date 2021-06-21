@@ -1,0 +1,8 @@
+<map id="sample.UserOneController" name="sample.UserOneController">
+<area shape="rect" id="node1" title=" " alt="" coords="222,872,437,1037"/>
+<area shape="rect" id="node2" title=" " alt="" coords="237,541,331,619"/>
+<area shape="rect" id="node3" href="$d7/daf/classsample_1_1GamePlayModel.html" title="Game play model which implements all game rules and checks for correct game play." alt="" coords="355,351,568,809"/>
+<area shape="rect" id="node4" href="$db/db0/classsample_1_1GameData.html" title="model class to save and load game data on HDD." alt="" coords="5,5,216,259"/>
+<area shape="rect" id="node5" href="$d7/d1b/enumsample_1_1PlayerColor.html" title=" " alt="" coords="394,86,529,178"/>
+<area shape="rect" id="node6" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html" title="game play model observer interface." alt="" coords="553,35,759,229"/>
+</map>

@@ -7,10 +7,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.*;
 
-import java.io.FileNotFoundException;
-
-import sample.GamePlayModel;
-import sample.GameData;
 
 
 public class Main extends Application {
@@ -36,7 +32,7 @@ public class Main extends Application {
             stage.setScene(new Scene(root1));
             stage.show();
         } catch (Exception e) {
-
+            System.out.println(e);
         }
     }
 
@@ -44,7 +40,5 @@ public class Main extends Application {
     public static void main(String[] args)  {
         launch(args);
 
-
     }
-
 }

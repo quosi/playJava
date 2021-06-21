@@ -1,16 +1,20 @@
 package sample;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import java.io.IOException;
-
-
 
 public class MenuController {
 
     @FXML
     private AnchorPane rootPane;
 
+    GamePlayModel itsModel;
+
+    public MenuController () {
+        itsModel = GamePlayModel.getInstance();
+    }
     public void showUser1(javafx.event.ActionEvent actionEvent) throws IOException {
         try {
             AnchorPane pane = FXMLLoader.load(getClass().getResource("user1.fxml"));
@@ -40,6 +44,7 @@ public class MenuController {
 
 
     public void exit() {
+        itsModel.SaveGameData();
         System.exit(0);
     }
 

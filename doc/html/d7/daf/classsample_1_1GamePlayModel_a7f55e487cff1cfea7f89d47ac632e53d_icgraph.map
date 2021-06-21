@@ -1,0 +1,4 @@
+<map id="sample.GamePlayModel.ChangeStatus" name="sample.GamePlayModel.ChangeStatus">
+<area shape="rect" id="node1" title="implements the game play rules by checking the events occur in the game when a new chip is inserted." alt="" coords="235,5,447,47"/>
+<area shape="rect" id="node2" href="$d5/d5a/classsample_1_1BoardController.html#a7309f4f6bf7df34a27afe7090ab223a1" title=" " alt="" coords="5,5,187,47"/>
+</map>
