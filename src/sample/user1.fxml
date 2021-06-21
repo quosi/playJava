@@ -14,7 +14,7 @@
    <children>
       <AnchorPane fx:id="rootPane" prefHeight="460.0" prefWidth="798.0" style="-fx-background-color: linear-gradient(to top, #12c3cc, #0d7075);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#7be8d9" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome Muster Fantastic Four " textAlignment="CENTER" wrappingWidth="998.0">
+            <Text fill="#7be8d9" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome to Fantastic Four " textAlignment="CENTER" wrappingWidth="998.0">
                <font>
                   <Font name="Arial" size="36.0" />
                </font>
@@ -25,7 +25,7 @@
                   <Font name="Arial Bold" size="18.0" />
                </font>
             </Text>
-            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showuser2" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Invite Friend" textFill="#fff200">
+            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showuser2" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Next" textFill="#fff200">
                <font>
                   <Font name="Arial Bold Italic" size="20.0" />
                </font>

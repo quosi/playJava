@@ -1,0 +1,8 @@
+<map id="sample.BoardController.initialize" name="sample.BoardController.initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,213,105"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a32727a5d01357f267878e161abeaa6cc" title=" " alt="" coords="261,5,500,47"/>
+<area shape="rect" id="node3" href="$d7/daf/classsample_1_1GamePlayModel.html#ac38669ce2f14c068eaed83e0c76532bf" title="initializes reference gamePlayerObserver with a valid reference to the game play model events observe..." alt="" coords="267,71,495,112"/>
+<area shape="rect" id="node4" href="$d7/daf/classsample_1_1GamePlayModel.html#ac8240a9885099faa39a417f05e8082b1" title="starts a new game by resetting the board game to nulls, and reset current turn, then informs the obse..." alt="" coords="283,136,479,177"/>
+<area shape="rect" id="node5" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a9e9ecb379295ff509f6a6c3345855270" title=" " alt="" coords="568,103,755,144"/>
+<area shape="rect" id="node6" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a9b899b648c6fe117689f77cc2bf8397b" title=" " alt="" coords="548,168,775,209"/>
+</map>

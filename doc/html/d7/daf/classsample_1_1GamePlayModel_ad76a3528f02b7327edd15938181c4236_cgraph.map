@@ -1,0 +1,4 @@
+<map id="sample.GamePlayModel.checkWin" name="sample.GamePlayModel.checkWin">
+<area shape="rect" id="node1" title="checks the win conditions when a new chip is inserted in the game board." alt="" coords="5,13,232,39"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a404d7feb71d7dbbb5df047a201820430" title="checks the win conditions when a new chip is inserted in the game board in the diagonals." alt="" coords="280,5,483,47"/>
+</map>

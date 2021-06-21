@@ -1,0 +1,6 @@
+<map id="sample.Controller.exit" name="sample.Controller.exit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,153,57"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a87b8c9c63bc30ce30248fbcf693d2539" title="triggers game data save request to GameData model on application exit." alt="" coords="201,23,397,65"/>
+<area shape="rect" id="node3" href="$db/db0/classsample_1_1GameData.html#a45a7d84a0011c1210559399628f63c53" title="saves player 1 and player 2 data to the HDD." alt="" coords="451,5,674,32"/>
+<area shape="rect" id="node4" href="$db/db0/classsample_1_1GameData.html#a9bc625594e42eecf34da0df474c5431a" title="updates the game data with the current score of player 1 and player 2." alt="" coords="445,56,680,83"/>
+</map>

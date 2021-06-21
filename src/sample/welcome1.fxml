@@ -21,7 +21,7 @@
             <Font name="Verdana" size="38.0" />
          </font>
       </Text>
-      <Button fx:id="loginButton" layoutX="688.0" layoutY="475.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Login" textFill="#fff200">
+      <Button fx:id="loginButton" layoutX="688.0" layoutY="475.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Start Game" textFill="#fff200">
          <font>
             <Font name="Arial Bold Italic" size="24.0" />
          </font>
@@ -45,7 +45,7 @@
       </Button>
       <ImageView fitHeight="545.0" fitWidth="751.0" layoutY="155.0">
          <image>
-            <Image url="file:/C:/master/PatternsUndFrameworks/project/playJava/images/1.png" />
+            <Image url="@./../../../../images/1.png" />
          </image>
       </ImageView>
    </children>

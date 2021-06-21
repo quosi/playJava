@@ -1,0 +1,5 @@
+<map id="sample.GamePlayModel.StartNewGame" name="sample.GamePlayModel.StartNewGame">
+<area shape="rect" id="node1" title="starts a new game by resetting the board game to nulls, and reset current turn, then informs the obse..." alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a9e9ecb379295ff509f6a6c3345855270" title=" " alt="" coords="269,5,456,47"/>
+<area shape="rect" id="node3" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a9b899b648c6fe117689f77cc2bf8397b" title=" " alt="" coords="249,71,476,112"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="sample.GamePlayModel.ChangeStatus" name="sample.GamePlayModel.ChangeStatus">
+<area shape="rect" id="node1" title="implements the game play rules by checking the events occur in the game when a new chip is inserted." alt="" coords="5,163,217,204"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#ad76a3528f02b7327edd15938181c4236" title="checks the win conditions when a new chip is inserted in the game board." alt="" coords="269,13,496,39"/>
+<area shape="rect" id="node4" href="$d7/daf/classsample_1_1GamePlayModel.html#ad1787a14f403a2780d7aebf4f002a07b" title="checks the first empty row in the game board based on the selected column by the current player." alt="" coords="288,64,477,105"/>
+<area shape="rect" id="node5" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a7fed4f1c10712acd708079697438e0cc" title=" " alt="" coords="289,129,476,171"/>
+<area shape="rect" id="node6" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#ab73624c9c00879f976383b09d66f9c3c" title=" " alt="" coords="289,195,476,236"/>
+<area shape="rect" id="node7" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html#a9e9ecb379295ff509f6a6c3345855270" title=" " alt="" coords="289,260,476,301"/>
+<area shape="rect" id="node8" href="$db/db0/classsample_1_1GameData.html#a9bc625594e42eecf34da0df474c5431a" title="updates the game data with the current score of player 1 and player 2." alt="" coords="265,326,500,353"/>
+<area shape="rect" id="node3" href="$d7/daf/classsample_1_1GamePlayModel.html#a404d7feb71d7dbbb5df047a201820430" title="checks the win conditions when a new chip is inserted in the game board in the diagonals." alt="" coords="548,5,751,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="sample.IGamePlayObserver.SETIsPlayer1CurrentTurn" name="sample.IGamePlayObserver.SETIsPlayer1CurrentTurn">
+<area shape="rect" id="node1" title=" " alt="" coords="521,39,708,80"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a7f55e487cff1cfea7f89d47ac632e53d" title="implements the game play rules by checking the events occur in the game when a new chip is inserted." alt="" coords="261,5,473,47"/>
+<area shape="rect" id="node4" href="$d7/daf/classsample_1_1GamePlayModel.html#ac8240a9885099faa39a417f05e8082b1" title="starts a new game by resetting the board game to nulls, and reset current turn, then informs the obse..." alt="" coords="269,71,465,112"/>
+<area shape="rect" id="node3" href="$d5/d5a/classsample_1_1BoardController.html#a7309f4f6bf7df34a27afe7090ab223a1" title=" " alt="" coords="19,5,200,47"/>
+<area shape="rect" id="node5" href="$d5/d5a/classsample_1_1BoardController.html#a61b2448c0fbdf3272f426ea604d9b35d" title=" " alt="" coords="5,78,213,105"/>
+</map>

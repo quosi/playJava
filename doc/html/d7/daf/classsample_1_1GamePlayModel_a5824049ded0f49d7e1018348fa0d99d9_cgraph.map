@@ -1,0 +1,4 @@
+<map id="sample.GamePlayModel.getInstance" name="sample.GamePlayModel.getInstance">
+<area shape="rect" id="node1" title="creates a singleton instance of GamePlayModel if not created and returns the instance to caller." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a070136268c427e82f23615ee352075c0" title="GamePlayModel private constructor." alt="" coords="240,5,443,47"/>
+</map>

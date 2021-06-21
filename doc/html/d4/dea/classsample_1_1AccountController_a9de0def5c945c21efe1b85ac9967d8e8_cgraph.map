@@ -1,0 +1,5 @@
+<map id="sample.AccountController.AccountController" name="sample.AccountController.AccountController">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$db/db0/classsample_1_1GameData.html#ae66e9d61ba7c6ca3c4b6b631dc69a4e3" title="creates a singleton instance of GameData if not created and returns the instance to caller." alt="" coords="228,13,429,39"/>
+<area shape="rect" id="node3" href="$db/db0/classsample_1_1GameData.html#a012b706cb9a7a080cf57ba95c9520f81" title="GameData private constructor." alt="" coords="477,13,673,39"/>
+</map>

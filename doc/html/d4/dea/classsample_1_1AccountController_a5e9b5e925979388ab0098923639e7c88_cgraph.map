@@ -1,0 +1,7 @@
+<map id="sample.AccountController.initialize" name="sample.AccountController.initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,111,228,138"/>
+<area shape="rect" id="node2" href="$db/db0/classsample_1_1GameData.html#a7bf822de1532222bf5cc9784a9829e57" title="returns player 1 last score and highest score in meta&#45;class score." alt="" coords="277,5,481,47"/>
+<area shape="rect" id="node3" href="$db/db0/classsample_1_1GameData.html#a69d30f7429a8880c2f6a1225cc6a66a7" title="returns player 2 last score and highest score in meta&#45;class score." alt="" coords="277,71,481,112"/>
+<area shape="rect" id="node4" href="$d6/d21/classsample_1_1Score.html#a6ca49c906b5bbf9053f7349e0bff0b9e" title=" " alt="" coords="276,136,481,177"/>
+<area shape="rect" id="node5" href="$d6/d21/classsample_1_1Score.html#a40227e7c6b3a8428528f55e6dd1a977c" title=" " alt="" coords="285,201,472,243"/>
+</map>

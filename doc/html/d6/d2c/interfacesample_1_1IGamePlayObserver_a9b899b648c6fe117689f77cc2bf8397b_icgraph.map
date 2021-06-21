@@ -1,0 +1,5 @@
+<map id="sample.IGamePlayObserver.updateGameData" name="sample.IGamePlayObserver.updateGameData">
+<area shape="rect" id="node1" title=" " alt="" coords="505,5,732,47"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#ac8240a9885099faa39a417f05e8082b1" title="starts a new game by resetting the board game to nulls, and reset current turn, then informs the obse..." alt="" coords="261,5,457,47"/>
+<area shape="rect" id="node3" href="$d5/d5a/classsample_1_1BoardController.html#a61b2448c0fbdf3272f426ea604d9b35d" title=" " alt="" coords="5,13,213,39"/>
+</map>

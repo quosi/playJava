@@ -1,0 +1,9 @@
+<map id="sample.GameData.updateGameData" name="sample.GameData.updateGameData">
+<area shape="rect" id="node1" title="updates the game data with the current score of player 1 and player 2." alt="" coords="556,69,791,95"/>
+<area shape="rect" id="node2" href="$d7/daf/classsample_1_1GamePlayModel.html#a7f55e487cff1cfea7f89d47ac632e53d" title="implements the game play rules by checking the events occur in the game when a new chip is inserted." alt="" coords="296,17,508,59"/>
+<area shape="rect" id="node4" href="$d7/daf/classsample_1_1GamePlayModel.html#a87b8c9c63bc30ce30248fbcf693d2539" title="triggers game data save request to GameData model on application exit." alt="" coords="304,93,500,135"/>
+<area shape="rect" id="node3" href="$d5/d5a/classsample_1_1BoardController.html#a7309f4f6bf7df34a27afe7090ab223a1" title=" " alt="" coords="36,5,217,47"/>
+<area shape="rect" id="node5" href="$d3/ded/classsample_1_1MenuController.html#ac4078fb8cfc26b36e7ff723767acfed3" title=" " alt="" coords="37,71,217,98"/>
+<area shape="rect" id="node6" href="$d9/dfc/classsample_1_1Controller.html#a67d6f30523fedcb1ffd750e32ee5d686" title=" " alt="" coords="53,122,201,149"/>
+<area shape="rect" id="node7" href="$df/d79/classsample_1_1PlayAgainController.html#a8d3dcf53f6f1f38424e1efcee1522046" title=" " alt="" coords="5,173,248,199"/>
+</map>
