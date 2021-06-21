@@ -5,12 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.*;
-
-import java.io.FileNotFoundException;
-
-import sample.GamePlayModel;
-import sample.GameData;
+import javafx.stage.StageStyle;
 
 
 public class Main extends Application {
@@ -28,8 +23,10 @@ public class Main extends Application {
         myGameData.loadGameData();
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("welcome1.fxml"));
-            Parent root1 = (Parent) fxmlLoader.load();
+            //FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("welcome1.fxml"));
+            //Parent root1 = (Parent) fxmlLoader.load();
+            Parent root1 = FXMLLoader.load(getClass().getResource("welcome1.fxml"));
+
             Stage stage = new Stage();
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setTitle("Fantastic Four Game");

@@ -1,17 +1,19 @@
 package sample;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+
 import java.io.IOException;
-import sample.GameData;
+
 public class AccountController {
 
     @FXML
     private AnchorPane rootPane;
     @FXML
     private TextField user1Name;
-    private GameData itsData;
+    GameData itsData;
     @FXML
     private TextField userHighestScore;
     @FXML
@@ -19,6 +21,7 @@ public class AccountController {
 
     public AccountController(){
         itsData = GameData.getInstance();
+       // itsData = new GameData();
 
     }
     @FXML

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-import sample.Score;
+
 
 public class GameData {
     private static GameData mySingletonInstance = null;
@@ -15,7 +15,7 @@ public class GameData {
     private int player2HighestScore;
     private String filepath = "C:\\gamedata\\Data1";
 
-    private GameData () {
+    public GameData () {
 
     }
 
@@ -72,7 +72,7 @@ public class GameData {
 
 
 
-    public Score GETPlayer1Score() {
+    Score GETPlayer1Score() {
         return new Score(player1LastScore, player1HighestScore);
     }
 
