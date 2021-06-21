@@ -1,0 +1,11 @@
+<map id="sample.BoardController" name="sample.BoardController">
+<area shape="rect" id="node1" title=" " alt="" coords="513,901,747,1228"/>
+<area shape="rect" id="node2" href="$d6/d2c/interfacesample_1_1IGamePlayObserver.html" title="game play model observer interface." alt="" coords="5,35,212,229"/>
+<area shape="rect" id="node6" href="$d7/daf/classsample_1_1GamePlayModel.html" title="Game play model which implements all game rules and checks for correct game play." alt="" coords="185,351,398,809"/>
+<area shape="rect" id="node3" title=" " alt="" coords="538,541,613,619"/>
+<area shape="rect" id="node4" title=" " alt="" coords="647,541,723,619"/>
+<area shape="rect" id="node5" title=" " alt="" coords="747,541,841,619"/>
+<area shape="rect" id="node7" href="$db/db0/classsample_1_1GameData.html" title="model class to save and load game data on HDD." alt="" coords="237,5,447,259"/>
+<area shape="rect" id="node8" href="$d7/d1b/enumsample_1_1PlayerColor.html" title=" " alt="" coords="625,86,760,178"/>
+<area shape="rect" id="node9" title=" " alt="" coords="865,541,920,619"/>
+</map>

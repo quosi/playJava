@@ -1,0 +1,4 @@
+<map id="sample.GamePlayModel.resetGameData" name="sample.GamePlayModel.resetGameData">
+<area shape="rect" id="node1" title="restarts the game by resetting the number of rounds to 1." alt="" coords="276,5,473,47"/>
+<area shape="rect" id="node2" href="$d5/d5a/classsample_1_1BoardController.html#a47c7383752c15159416a3238f3bc1bc5" title=" " alt="" coords="5,13,228,39"/>
+</map>

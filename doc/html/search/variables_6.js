@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['p1highestscore_202',['p1HighestScore',['../d4/dea/classsample_1_1AccountController.html#a0d79cf0773a0397b50a9c0b19768b406',1,'sample::AccountController']]],
+  ['p1lastscore_203',['p1LastScore',['../d4/dea/classsample_1_1AccountController.html#ad9c7d0dfd54ee9c10ce548a9f73c3ce0',1,'sample::AccountController']]],
+  ['p1score_204',['P1Score',['../d5/d5a/classsample_1_1BoardController.html#a0116903500a50281ceec3686ade96d78',1,'sample::BoardController']]],
+  ['p2highestscore_205',['p2HighestScore',['../d4/dea/classsample_1_1AccountController.html#a9c0dd36256bfb8c9e6d7f91dbe331462',1,'sample::AccountController']]],
+  ['p2lastscore_206',['p2LastScore',['../d4/dea/classsample_1_1AccountController.html#ac2cd27856503518a9199f738864ebfe4',1,'sample::AccountController']]],
+  ['p2score_207',['P2Score',['../d5/d5a/classsample_1_1BoardController.html#ae295c21410579394b70a6e6a6242f47b',1,'sample::BoardController']]],
+  ['player1color_208',['Player1Color',['../d7/daf/classsample_1_1GamePlayModel.html#a182e7e7bf285b36a24aa610218c4a08e',1,'sample::GamePlayModel']]],
+  ['player1currentscore_209',['Player1CurrentScore',['../d7/daf/classsample_1_1GamePlayModel.html#af26b8deb9d807921ad560084ff9413fd',1,'sample::GamePlayModel']]],
+  ['player1highestscore_210',['player1HighestScore',['../db/db0/classsample_1_1GameData.html#abfef3082d15f259f2b45d7b5cff352fa',1,'sample::GameData']]],
+  ['player1lastscore_211',['player1LastScore',['../db/db0/classsample_1_1GameData.html#a48851d71be5024e03cf3eba1ea3e0a3b',1,'sample::GameData']]],
+  ['player2color_212',['Player2Color',['../d7/daf/classsample_1_1GamePlayModel.html#a82b945c196f3db7ef183d447123c96fc',1,'sample::GamePlayModel']]],
+  ['player2currentscore_213',['Player2CurrentScore',['../d7/daf/classsample_1_1GamePlayModel.html#a7a63ef1c933cab85863371b964920eda',1,'sample::GamePlayModel']]],
+  ['player2highestscore_214',['player2HighestScore',['../db/db0/classsample_1_1GameData.html#acbe694fab9febb4dafd7ab1c8869bb6e',1,'sample::GameData']]],
+  ['player2lastscore_215',['player2LastScore',['../db/db0/classsample_1_1GameData.html#a8d266694e495b9e728313083d9aea653',1,'sample::GameData']]],
+  ['playerhighestscore_216',['playerHighestScore',['../d6/d21/classsample_1_1Score.html#a156a4c157e0fe3c9051b9e9d09c868d8',1,'sample::Score']]],
+  ['playerlastscore_217',['playerLastScore',['../d6/d21/classsample_1_1Score.html#a44946e2dfb56b79659d9c7c953d18963',1,'sample::Score']]]
+];

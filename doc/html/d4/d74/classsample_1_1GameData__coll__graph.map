@@ -1,0 +1,3 @@
+<map id="sample.GameData" name="sample.GameData">
+<area shape="rect" id="node1" title="model class to save and load game data on HDD." alt="" coords="5,5,216,259"/>
+</map>
