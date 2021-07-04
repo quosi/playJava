@@ -14,7 +14,7 @@
             <Font name="French Script MT" size="75.0" />
          </font>
       </Text>
-      <Button layoutX="366.0" layoutY="483.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#startNewGame" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Play New Round" textFill="#fff200">
+      <Button layoutX="366.0" layoutY="416.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#startNewGame" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Play New Round" textFill="#fff200">
          <font>
             <Font name="Arial Bold Italic" size="24.0" />
          </font>
@@ -31,6 +31,17 @@
          </font>
       </Text>
       <Button layoutX="366.0" layoutY="578.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#exitGame" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Exit Game" textFill="#fff200">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="367.0" layoutY="494.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#Menu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Back to Menu" textFill="#fff200">
          <font>
             <Font name="Arial Bold Italic" size="24.0" />
          </font>

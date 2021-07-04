@@ -30,7 +30,7 @@
             </Label>
             <TextField fx:id="p1HighestScore" disable="true" editable="false" layoutX="329.0" layoutY="152.0" prefHeight="44.0" prefWidth="540.0" />
             <TextField fx:id="p1LastScore" disable="true" editable="false" layoutX="328.0" layoutY="223.0" prefHeight="44.0" prefWidth="540.0" />
-            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Quit" textFill="#fff200">
+            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Back" textFill="#fff200">
                <font>
                   <Font name="Arial Bold Italic" size="20.0" />
                </font>

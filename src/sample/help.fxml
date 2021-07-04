@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ScrollPane?>
@@ -7,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 
 <AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to top, #12c3cc, #0d7075);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HelpController">
    <children>
@@ -20,14 +20,56 @@
             </Text>
             <ScrollPane cache="true" layoutX="33.0" layoutY="70.0" prefHeight="469.0" prefWidth="948.0">
                <content>
-                  <Text lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces (like coins); each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.The winner is the first player who gets a straight line made with four own pieces and no gaps between them." textAlignment="CENTER" wrappingWidth="979.0" x="2.0" y="2.0">
-                     <font>
-                        <Font name="Arial" size="14.0" />
-                     </font>
-                  </Text>
+                  <AnchorPane maxHeight="460.0" maxWidth="930.0" minHeight="455.0" minWidth="900.0">
+                     <children>
+                        <Text layoutX="12.0" layoutY="28.0" lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OBJECTIVE:" wrappingWidth="913.0" x="2.0" y="2.0">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="13.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To be the first player to connect 4 of the same colored discs in a row (either vertically, horizontally, or diagonally)">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="11.0" layoutY="109.0" lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOW TO PLAY:" wrappingWidth="903.0" x="2.0" y="2.0">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First, decide who goes first and what color each player will have. Players must alternate turns, and only one disc can be dropped in each turn. On your turn, drop one of your colored discs from the top into any of the seven slots. The game ends when there is a 4-in-a-row or a stalemate.The starter of the previous game goes second on the next game." wrappingWidth="900.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="12.0" layoutY="257.0" lineSpacing="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="903.0" x="2.0" y="2.0">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="21.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. There is a window for every square, so that pieces can be seen from both sides.In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.Both players have a set of 21 thin pieces " wrappingWidth="900.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="21.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="each of them uses a different colour. The board is empty at the start of the game.ObjectiveThe aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.How the game goes onBefore starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares" wrappingWidth="900.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="21.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The winner is the first player who gets a straight line made with four own pieces and no gaps between them.DescriptionThis game is played on a vertical board wich has seven hollow columns and six rows. Each column has a hole in the upper part of the board, where pieces are introduced. " wrappingWidth="900.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </AnchorPane>
                </content>
             </ScrollPane>
-            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Quit" textFill="#fff200">
+            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Back" textFill="#fff200">
                <font>
                   <Font name="Arial Bold Italic" size="20.0" />
                </font>

@@ -33,6 +33,14 @@ public class UserTwoController {
             System.out.println(e);
         }
     }
+    public void showUser1(javafx.event.ActionEvent actionEvent) throws IOException {
+        try {
+            AnchorPane pane = FXMLLoader.load(getClass().getResource("user1.fxml"));
+            rootPane.getChildren().setAll(pane);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 
 
 }

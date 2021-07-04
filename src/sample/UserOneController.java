@@ -23,6 +23,14 @@ public class UserOneController {
             System.out.println(e);
         }
     }
+    public void Menu(javafx.event.ActionEvent actionEvent) throws IOException {
+        try {
+            AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));
+            rootPane.getChildren().setAll(pane);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 
     public void chooseRed(javafx.event.ActionEvent actionEvent) {
 

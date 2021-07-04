@@ -22,6 +22,14 @@ public class PlayAgainController {
             System.out.println(e);
         }
     }
+    public void Menu(javafx.event.ActionEvent actionEvent) {
+        try {
+            AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));
+            rootPane.getChildren().setAll(pane);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 
     public void exitGame(javafx.event.ActionEvent actionEvent) {
         itsModel.SaveGameData();

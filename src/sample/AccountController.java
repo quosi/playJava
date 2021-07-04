@@ -22,14 +22,12 @@ public class AccountController {
 
     public AccountController(){
         itsData = GameData.getInstance();
-
     }
     @FXML
     public void initialize()  {
         Score score = itsData.GETPlayer1Score();
         p1HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
         p1LastScore.setText(Integer.toString(score.getPlayerLastScore()));
-
         score = itsData.GETPlayer2Score();
         p2HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
         p2LastScore.setText(Integer.toString(score.getPlayerLastScore()));

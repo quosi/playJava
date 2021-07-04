@@ -13,36 +13,43 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- *
- *
- *
-
+ * controller class to manage the game play view and handle user inputs.
  */
-
 public class BoardController implements IGamePlayObserver{
     private GamePlayModel itsModel;
 
     @FXML
-    private AnchorPane rootPane;
+    private AnchorPane rootPane; /**< main screen javafx node */
     @FXML
-    private Circle c1;
+    private Circle c1; /**< player 1 color circle */
     @FXML
-    private Circle c2;
+    private Circle c2; /**< player 2 color circle */
     @FXML
-    private Circle TurnCircle;
+    private Circle TurnCircle; /**< turn color circle */
     @FXML
-    private GridPane gridPane;
+    private GridPane gridPane; /**< Connect4 board javafx node */
     @FXML
-    private TextField roundTextField;
+    private TextField roundTextField; /**< round number text field */
     @FXML
-    private TextField P1Score;
+    private TextField P1Score; /**< player 1 score text field */
     @FXML
-    private TextField P2Score;
+    private TextField P2Score; /**< player 2 score text field */
 
+    /**
+     * Boardcontroller constructor
+     * gets access to the game play model
+     */
     public BoardController () {
         itsModel = GamePlayModel.getInstance();
     }
+
     @FXML
+    /**
+     * Boardcontroller javafx initialize function
+     * Sets player 1 color and player 2 color
+     * registers itself at the game play model as the observer to game play events and then notifies the game play
+     * model to start game play
+     */
     public void initialize()  {
         if(itsModel.GETPlayer1Color() == PlayerColor.RED){
             c1.setFill(Color.RED);
@@ -62,6 +69,10 @@ public class BoardController implements IGamePlayObserver{
 
     }
 
+    /**
+     * Leaves the game play screen and returns to the main menu of the game
+     * @param actionEvent javafx action received from the user
+     */
     public void showMenu(javafx.event.ActionEvent actionEvent) throws IOException {
         try {
             AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));
@@ -74,6 +85,11 @@ public class BoardController implements IGamePlayObserver{
 
 
     @FXML
+    /**
+     * handles the event when the users clicks on one of the cells of the game play board
+     * Calls the game play model function ChangeStatus with the column clicked by the user
+     * @param e javafx mouse event of the clicked cell
+     */
     public void cellClicked (javafx.scene.input.MouseEvent e){
         try {
             ArrayList<Node> a;
@@ -86,6 +102,14 @@ public class BoardController implements IGamePlayObserver{
     }
 
     @Override
+    /**
+     * handles the game play model to change the current turn of the player
+     * Implements the observer interface method SETIsPlayer1CurrentTurn which handles the game play model event to
+     * change the current turn of the player. The method will be called by the game play model to change the current
+     * turn. It will check the flag isPlayer1CurrTurn and based on it sets the color of the turn circle to be either
+     * for player 1 or player 2
+     * @param isPlayer1CurrTurn flag to indicate if the current turn is for player 1 or 2
+     */
     public void SETIsPlayer1CurrentTurn(boolean isPlayer1CurrTurn) {
         if(isPlayer1CurrTurn) {
             if(itsModel.GETPlayer1Color() == PlayerColor.RED)
@@ -102,7 +126,13 @@ public class BoardController implements IGamePlayObserver{
     }
 
 
-    public Node getNodeByRowColumnIndex (Integer ColIndex,Integer RowIndex) {
+    /**
+     * gets the node at certain column and row inside the game play board
+     * @param ColIndex column index of the cell
+     * @param RowIndex row index of the cell
+     * @return reference to the node
+     */
+    private Node getNodeByRowColumnIndex (Integer ColIndex,Integer RowIndex) {
         Node result = null;
         ObservableList<Node> childrens = gridPane.getChildren();
 
@@ -122,6 +152,16 @@ public class BoardController implements IGamePlayObserver{
         return result;
     }
 
+
+    /**
+     * sets the color of a certain node at certain column and row with a certain color inside the game play board
+     * Implements the observer interface method SETCellColor which handles the game play model event to
+     * change the color of certain node in the game play board. The method will be called by the game play model to
+     * change the color of a certain node in the game play board.
+     * @param ColIndex column index of the node
+     * @param RowIndex row index of the node
+     * @param ColIndex color to be given to the node
+     */
     @Override
     public  void  SETCellColor(Integer ColIndex,Integer RowIndex ,PlayerColor cellColor){
         Node node = getNodeByRowColumnIndex(ColIndex, RowIndex);
@@ -135,7 +175,12 @@ public class BoardController implements IGamePlayObserver{
         }
     }
 
+    /**
+     * displays the win banner for the winner of the game in case of win condition
+     * Implements the observer interface method PrintIfWin which handles the game play model event game won.
+     */
     @Override
+
     public void PrintIfWin () throws IOException {
         try {
             AnchorPane pane = FXMLLoader.load(getClass().getResource("PlayAgain.fxml"));
@@ -146,6 +191,10 @@ public class BoardController implements IGamePlayObserver{
     }
 
     @Override
+    /**
+     * updates the game play data, current round, current player 1 score, and current player 2 score
+     * Implements the observer interface method updateGameData which handles the game play model data update.
+     */
     public void updateGameData(int round, int p1score, int p2score) {
         roundTextField.setText(String.valueOf(round));
         P1Score.setText(String.valueOf(p1score));
