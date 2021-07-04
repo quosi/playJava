@@ -10,8 +10,13 @@ A mini game written in Java, to practice OOP.
 
 The software architecture of this game follows the MVC (model, view, controller) concept, where the programm logic is separated from the GUI (graphical user interface). The controller unit is the manages the information exchange between the modul (containing the game objects), and the view (representing the GUI, incl. GUI objects).
 
-![UML_class_diagram](images/uml1.jpg "UML class diagram")
 ![UML_class_diagram](images/Capture.JPG "UML class diagram")
+![UML_class_diagram](images/uml1.jpg "UML class diagram")
+![UML_class_diagram](images/uml1.png "UML class diagram")
+![UML_class_diagram](images/uml2.png "UML class diagram")
+![UML_class_diagram](images/uml3.png "UML class diagram")
+![UML_class_diagram](images/uml4.png "UML class diagram")
+![UML_class_diagram](images/uml5.png "UML class diagram")
 updated version: https://miro.com/app/board/o9J_lHxQrZg=/
 
 ## Rules of the Game
@@ -30,13 +35,4 @@ Using Scene Builder a first GUI design is proposed. Based on this [FXML file](./
 ![GUI_Design_v1](images/6-won.JPG "Fantastic Four GUI Design from Scene Builder")
 ![GUI_Design_v1](images/7-account.JPG "Fantastic Four GUI Design from Scene Builder")
 ![GUI_Design_v1](images/8-help.JPG "Fantastic Four GUI Design from Scene Builder")
-
-
-
-
-## Open Questions
-
-How or when do players get a Super Power Chip? (game design related question) <br>
-Can a Player select a random colour other then red or blue before the game starts? (UI related question)
-
 
