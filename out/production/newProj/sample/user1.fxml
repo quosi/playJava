@@ -25,7 +25,7 @@
                   <Font name="Arial Bold" size="18.0" />
                </font>
             </Text>
-            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showuser2" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Next" textFill="#fff200">
+            <Button fx:id="LoginButton14" layoutX="672.0" layoutY="562.0" mnemonicParsing="false" onAction="#showuser2" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Next" textFill="#fff200">
                <font>
                   <Font name="Arial Bold Italic" size="20.0" />
                </font>
@@ -50,6 +50,17 @@
                   <Font size="15.0" />
                </font>
             </MenuButton>
+            <Button fx:id="LoginButton141" layoutX="63.0" layoutY="562.0" mnemonicParsing="false" onAction="#Menu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Back" textFill="#fff200">
+               <font>
+                  <Font name="Arial Bold Italic" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
          </children>
       </AnchorPane>
    </children>
