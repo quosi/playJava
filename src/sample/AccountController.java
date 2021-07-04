@@ -1,8 +1,10 @@
 package sample;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+
 import java.io.IOException;
 public class AccountController {
 
@@ -10,7 +12,7 @@ public class AccountController {
     private AnchorPane rootPane;
     @FXML
     private TextField user1Name;
-    private GameData itsData;
+    GameData itsData;
     @FXML
     private TextField p1HighestScore;
     @FXML
@@ -22,12 +24,14 @@ public class AccountController {
 
     public AccountController(){
         itsData = GameData.getInstance();
+
     }
     @FXML
     public void initialize()  {
         Score score = itsData.GETPlayer1Score();
         p1HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
         p1LastScore.setText(Integer.toString(score.getPlayerLastScore()));
+        
         score = itsData.GETPlayer2Score();
         p2HighestScore.setText(Integer.toString(score.getPlayerHighestScore()));
         p2LastScore.setText(Integer.toString(score.getPlayerLastScore()));
